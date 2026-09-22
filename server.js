@@ -1,6 +1,12 @@
 import express from 'express';
 import connectDatabase from './config/db.js';
 import { check, validationResult} from 'express-validator';
+import User from './models/User.js';
+import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
+//
+dotenv.config();
 const app = express();
 connectDatabase();
 //
@@ -9,7 +15,7 @@ app.use(express.json({ extended: false}));
 app.get('/', (req, res) => 
     res.send('http get request sent to root api endpoint')
 );
-//
+//Post Request
 app.post('/api/users', [
     check('name', 'Name is required').not().isEmpty(),
     check('email', 'Please include a valid email').isEmail(),
