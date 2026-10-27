@@ -1,0 +1,36 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.home-header {
+  margin-bottom: 2rem;
+}
+
+.home-header h1 {
+  color: #282c34;
+  margin: 0;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
+.error {
+  color: #d32f2f;
+}
+
+.no-posts {
+  text-align: center;
+  margin-top: 3rem;
+  color: #666;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+}

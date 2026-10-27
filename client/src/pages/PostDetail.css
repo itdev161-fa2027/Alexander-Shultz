@@ -1,0 +1,54 @@
+.post-detail {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-detail h1 {
+  color: #282c34;
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.post-detail-meta {
+  display: flex;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #f0f0f0;
+  color: #666;
+}
+
+.post-detail-author {
+  font-weight: 600;
+  color: #282c34;
+}
+
+.post-detail-body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.post-detail-body p {
+  margin-bottom: 1rem;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #61dafb;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.back-button:hover {
+  color: #21a1c4;
+  text-decoration: underline;
+}
