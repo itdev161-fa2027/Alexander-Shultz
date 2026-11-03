@@ -1,0 +1,27 @@
+.auth-page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.auth-switch p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.auth-switch a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-switch a:hover {
+  text-decoration: underline;
+}
