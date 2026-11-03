@@ -27,6 +27,7 @@
 .header-nav {
   display: flex;
   gap: 1.5rem;
+  align-items: center;
 }
 
 .nav-link {
@@ -38,4 +39,27 @@
 
 .nav-link:hover {
   color: #61dafb;
+}
+
+.user-welcome {
+  color: #61dafb;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nav-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-button:hover {
+  background-color: white;
+  color: #282c34;
 }
