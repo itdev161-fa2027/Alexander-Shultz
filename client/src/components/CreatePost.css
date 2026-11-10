@@ -1,0 +1,14 @@
+.create-post-page {
+  min-height: calc(100vh - 80px);
+  padding: 2rem 0;
+}
+
+.error-message {
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border-left: 4px solid #d32f2f;
+}
