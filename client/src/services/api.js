@@ -76,3 +76,36 @@ export const getPostById = async (id) => {
     throw error;
   }
 };
+
+// Create a new post
+export const createPost = async (title, body) => {
+  try {
+    const response = await api.post('/posts', { title, body });
+    return response.data;
+  } catch (error) {
+    console.error('Error creating post:', error);
+    throw error;
+  }
+};
+
+// Update a post
+export const updatePost = async (id, title, body) => {
+  try {
+    const response = await api.put(`/posts/${id}`, { title, body });
+    return response.data;
+  } catch (error) {
+    console.error('Error updating post:', error);
+    throw error;
+  }
+};
+
+// Delete a post
+export const deletePost = async (id) => {
+  try {
+    const response = await api.delete(`/posts/${id}`);
+    return response.data;
+  } catch (error) {
+    console.error('Error deleting post:', error);
+    throw error;
+  }
+};

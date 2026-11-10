@@ -31,6 +31,47 @@
   font-size: 1.1rem;
   line-height: 1.8;
   color: #444;
+  margin-bottom: 2rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 1rem;
+  padding-top: 2rem;
+  border-top: 2px solid #f0f0f0;
+}
+
+.edit-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-button:hover {
+  background-color: #21a1c4;
+}
+
+.delete-button {
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  color: #d32f2f;
+  border: 2px solid #d32f2f;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+  color: white;
 }
 
 .post-detail-body p {
