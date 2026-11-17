@@ -36,6 +36,4 @@ Will we potentially get CSS for the components, or will we have to do that ourse
 
 ## AI Usage
 
-Tools: [names, or "none"]
-What I used them for: [two or three items, such as "explained a 401 error" or "drafted the Comment model"]
-How I checked the result: [what you tested or changed before keeping it]
+Tools: none
